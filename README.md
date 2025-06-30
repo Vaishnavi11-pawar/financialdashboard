@@ -7,10 +7,10 @@ Built with **React, TypeScript, Node.js, Express, and MongoDB**.
 
 ## 🚀 Live Demo
 
-- **Frontend URL:** _[Add your deployed frontend link here]_
-- **Frontend Codebase:** [GitHub](https://github.com/yourusername/financial-analytics-dashboard)
-- **API Base URL:** _[e.g. http://localhost:8080/api or your deployed backend URL]_
-- **API Documentation:** _[Add Postman Collection or Swagger link if available]_
+- **Frontend URL:**
+- **Frontend Codebase:** [GitHub](https://github.com/Vaishnavi11-pawar/financialdashboard)
+- **Backend URL:** (https://financialdashboard-sf0r.onrender.com)
+- **API Documentation:** (https://www.postman.com/avengers-8990/workspace/financial-analytics/collection/41720353-58c1b1a2-e897-4273-bc24-96ad7406cc69?action=share&creator=41720353)
 
 ---
 
@@ -97,19 +97,19 @@ REFRESH_TOKEN_SECRET=your_refresh_jwt_secret
 #### 1. Authentication
 - **Register:** `POST /auth/register` (supports avatar upload)
 - **Login:** `POST /auth/login`
-- **Get Profile:** `GET /api/profile`
+- **Logout:** `POST /auth/logout`
+- **RefreshAccessToken:** `POST /auth/refresh`
 
 #### 2. Transactions
 - **List Transactions:** `GET /transactions` (supports filters, pagination)
-- **Export Transactions:** `POST /export` (CSV export with filters)
-- **Add Transaction:** `POST /transactions`
-- **Update Transaction:** `PUT /transactions/:id`
-- **Delete Transaction:** `DELETE /transactions/:id`
 
 #### 3. Analytics
 - **Summary:** `GET /analytics/summary`
 - **Trends:** `GET /analytics/trends`
 - **Category Breakdown:** `GET /analytics/categories`
+- 
+ #### 4. Export
+- **Export Transactions:** `POST /export` 
 
 ---
 
@@ -144,8 +144,7 @@ REFRESH_TOKEN_SECRET=your_refresh_jwt_secret
 
 ## 🧪 Testing
 
-- Use the provided Postman Collection or Swagger docs for API testing.
-- Frontend can be tested using Cypress or React Testing Library (not included by default).
+- Use the provided Postman Collection for API testing.
 
 ---
 
@@ -156,19 +155,20 @@ REFRESH_TOKEN_SECRET=your_refresh_jwt_secret
 - More advanced analytics (custom date ranges, charts).
 - Notifications and reminders.
 - Budget tracking and goals.
-- Mobile app version.
+
 
 ---
 
 ## 📸 Screenshots
 
-_Add screenshots or GIFs of your dashboard, analytics, and transaction pages here for better engagement._
+![Screenshot 2025-06-30 135436](https://github.com/user-attachments/assets/2f182279-a950-4a45-905e-b085fd0c91ac)
+![Screenshot 2025-06-30 135541](https://github.com/user-attachments/assets/a04aff52-e1e8-43a1-bf92-f41a001f09e0)
+![Screenshot 2025-06-30 135603](https://github.com/user-attachments/assets/eb0ed0ee-1a35-46f3-9c50-db5b3f073e0f)
+![Screenshot 2025-06-30 135646](https://github.com/user-attachments/assets/c55eba75-bb1f-4912-b640-b3041dbdaf7b)
+![Screenshot 2025-06-30 135816](https://github.com/user-attachments/assets/42653dd7-62a7-4ceb-bf88-a77072a4901c)
+
 
 ---
-
-## 📄 License
-
-MIT
 
 ---
 
